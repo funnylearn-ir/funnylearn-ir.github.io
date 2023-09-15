@@ -16,35 +16,52 @@
 </head>
 
 
-
+    
 <body>
     <div class="glass-container">
         <div class="icon-container">
-           
             <img src="https://github.com/funnylearn-ir/funnylearn-ir.github.io/raw/main/Funnylearn-icon.webp" alt="pic" class="icon">
-
             <h1>Funnylearn</h1>
         </div>
         <p>
             FannyLearn is an educational network for those interested in programming and IT, follow us on social networks. ✨
         </p>
         <div class="btn-container">
-
-
-            <a href="https://t.me/funnylearn.ir" class="btn">
-                <img src="">Channel telegram</a>
-
-
-            <a href="https://funnylearn.ir" class="btn">
-                <img src="">website Funnylearn</a>
-
-                        
-
+            <button class="btn" onclick="showContent('telegramContent')">Channel telegram</button>
+            <button class="btn" onclick="showContent('websiteContent')">website Funnylearn</button>
+        </div>
+        <div class="content" id="telegramContent">
+            <h2>Telegram Content</h2>
+            <p>Here is the content for the Telegram button.</p>
+        </div>
+        <div class="content" id="websiteContent">
+            <h2>Website Content</h2>
+            <a href="https://www.example.com" class="button">Click me!</a>
+            <p>Here is the content for the Website button.</p>
         </div>
     </div>
-    
-</body>
 
+    <script>
+
+function showContent(contentId) {
+    const contents = document.querySelectorAll('.content');
+    contents.forEach(content => content.classList.remove('active'));
+
+    const selectedContent = document.getElementById(contentId);
+    selectedContent.classList.add('active');
+
+    setTimeout(() => {
+        window.scrollTo({
+            top: document.body.scrollHeight,
+            behavior: 'smooth'
+        });
+    }, 100);
+}
+
+
+
+    </script>
+</body>
 
 
 

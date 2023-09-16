@@ -90,7 +90,7 @@ body {
 
 .content {
     display: none;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .content.active {
@@ -184,11 +184,9 @@ body {
 
 hr {
     border: none;
-    border-top: 5px solid #ffffff; 
-    margin: 20px 0; 
+    border-top: 5px solid gold; /* تغییر رنگ به طلایی */
+    margin: 20px 0;
+    color: gold; /* افزودن رنگ به خط */
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5); /* افزودن سایه */
 }
-
-
-
-
 /*_______________________________________________*/

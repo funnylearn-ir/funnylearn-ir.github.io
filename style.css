@@ -10,7 +10,7 @@
 body {
     margin: 10px;
     font-family: Arial, sans-serif;
-    background: linear-gradient(45deg, #8800e2, #56aeff, #6f00ff, #00de1e);
+    background: linear-gradient(45deg, #7600c4, #2a98ff, #004cef, #9000de , #2a98ff, #004cef, #9000de);
     background-size: 400% 400%;
     animation: gradientAnimation 10s infinite alternate;
     display: flex;
@@ -173,11 +173,14 @@ body {
 }
 
 .glass-container {
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.297);
+    backdrop-filter: blur(20px);
     border-radius: 20px;
     padding: 20px;
     max-width: 600px;
     margin: auto;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/*_______________________________________________*/
+

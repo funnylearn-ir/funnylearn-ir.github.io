@@ -191,37 +191,3 @@ hr {
 }
 /*_______________________________________________*/
 
-
-
-
-body {
-    font-family:inherit;
-    font-size: 16px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: inherit;
-}
-
-* {
-    font-family: "Inter", "Yekan";
-}
-  @font-face {
-font-family: 'Yekan';
-src: url('fonts/yekan/Yekan.eot'); /* IE9 Compat Modes */
-src: url('fonts/yekan/Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
- url('fonts/yekan/Yekan.woff2') format('woff2'), /* Super Modern Browsers */
- url('fonts/yekan/Yekan.woff') format('woff'), /* Pretty Modern Browsers */
- url('fonts/yekan/Yekan.ttf')  format('truetype'), /* Safari, Android, iOS */
- url('fonts/yekan/Yekan.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-@font-face {
-    font-family: 'Inter'; src: url('fonts/yekan/Inter.ttf'); /* IE9 Compat Modes */
-    }
-  
-
-
-
-
-
-
